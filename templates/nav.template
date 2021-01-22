@@ -1,0 +1,9 @@
+<link href="nav.css" rel="stylesheet" />
+<div class="nav">
+    <ul class="nav-ul">
+        <li class="nav-li"><a href="">Home</a></li>
+        <li class="nav-li"><a href="">Options</a></li>
+        <li class="nav-li"><a href="">Contact</a></li>
+        <li class="nav-li"><a href="">About</a></li>
+    </ul>
+</div>

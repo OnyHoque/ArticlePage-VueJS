@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  </head>
+  <body>
+    <div id="vue-app">
+      <link href="nav.css" rel="stylesheet" />
+      <div class="nav">
+        <ul class="nav-ul" id="nav-ul">
+          <li class="nav-li"><a href="">Home</a></li>
+          <li class="nav-li"><a href="">Options</a></li>
+          <li class="nav-li"><a href="">Contact</a></li>
+          <li class="nav-li"><a href="">About</a></li>
+        </ul>
+      </div>
+      <div class="main" id="main">
+        <div class="adjuster" id="adjuster">
+          <div id="font-size-id">
+            <button v-on:click="fontDecrease()" class="btnStyle1">-</button>
+            Text size: {{ font_size }}
+            <button v-on:click="fontIncrease()" class="btnStyle1">+</button>
+          </div>
+          <div>
+            <button v-on:click="lightMode()" class="btnStyle2">Light Mode</button>
+          </div>
+          <div>
+            <button v-on:click="darkMode()" class="btnStyle2">Dark Mode</button>
+          </div>
+          
+        </div>
+        <div class="main-article" id="main-article">
+          <p>
+            I guess we could discuss the implications of the phrase "meant to be." That is if we wanted to drown ourselves in a sea of 
+            backwardly referential semantics and other mumbo-jumbo. Maybe such a discussion would result in the determination that "meant 
+            to be" is exactly as meaningless a phrase as it seems to be, and that none of us is actually meant to be doing anything at all. 
+            But that's my existential underpants underpinnings showing. It's the way the cookie crumbles. And now I want a cookie.
+          </p>
+          <p>
+            There are only three ways to make this work. The first is to let me take care of everything. The second is for you to take 
+            care of everything. The third is to split everything 50 / 50. I think the last option is the most preferable, but I'm certain 
+            it'll also mean the end of our marriage.          
+          </p>
+          <p>
+            He had three simple rules by which he lived. The first was to never eat blue food. There was nothing in nature that was 
+            edible that was blue. People often asked about blueberries, but everyone knows those are actually purple. He understood 
+            it was one of the stranger rules to live by, but it had served him well thus far in the 50+ years of his life.
+          </p>
+          <p>
+            Don't forget that gifts often come with costs that go beyond their purchase price. When you purchase a child the latest 
+            smartphone, you're also committing to a monthly phone bill. When you purchase the latest gaming system, you're likely 
+            not going to be satisfied with the games that come with it for long and want to purchase new titles to play. When you 
+            buy gifts it's important to remember that some come with additional costs down the road that can be much more expensive
+             than the initial gift itself.
+          </p>
+          <p>
+            I guess we could discuss the implications of the phrase "meant to be." That is if we wanted to drown ourselves in a sea of 
+            backwardly referential semantics and other mumbo-jumbo. Maybe such a discussion would result in the determination that "meant 
+            to be" is exactly as meaningless a phrase as it seems to be, and that none of us is actually meant to be doing anything at all. 
+            But that's my existential underpants underpinnings showing. It's the way the cookie crumbles. And now I want a cookie.
+          </p>
+          <p>
+            There are only three ways to make this work. The first is to let me take care of everything. The second is for you to take 
+            care of everything. The third is to split everything 50 / 50. I think the last option is the most preferable, but I'm certain 
+            it'll also mean the end of our marriage.          
+          </p>
+          <p>
+            He had three simple rules by which he lived. The first was to never eat blue food. There was nothing in nature that was 
+            edible that was blue. People often asked about blueberries, but everyone knows those are actually purple. He understood 
+            it was one of the stranger rules to live by, but it had served him well thus far in the 50+ years of his life.
+          </p>
+          <p>
+            Don't forget that gifts often come with costs that go beyond their purchase price. When you purchase a child the latest 
+            smartphone, you're also committing to a monthly phone bill. When you purchase the latest gaming system, you're likely 
+            not going to be satisfied with the games that come with it for long and want to purchase new titles to play. When you 
+            buy gifts it's important to remember that some come with additional costs down the road that can be much more expensive
+             than the initial gift itself.
+          </p>
+          <p>
+            I guess we could discuss the implications of the phrase "meant to be." That is if we wanted to drown ourselves in a sea of 
+            backwardly referential semantics and other mumbo-jumbo. Maybe such a discussion would result in the determination that "meant 
+            to be" is exactly as meaningless a phrase as it seems to be, and that none of us is actually meant to be doing anything at all. 
+            But that's my existential underpants underpinnings showing. It's the way the cookie crumbles. And now I want a cookie.
+          </p>
+          <p>
+            There are only three ways to make this work. The first is to let me take care of everything. The second is for you to take 
+            care of everything. The third is to split everything 50 / 50. I think the last option is the most preferable, but I'm certain 
+            it'll also mean the end of our marriage.          
+          </p>
+          <p>
+            He had three simple rules by which he lived. The first was to never eat blue food. There was nothing in nature that was 
+            edible that was blue. People often asked about blueberries, but everyone knows those are actually purple. He understood 
+            it was one of the stranger rules to live by, but it had served him well thus far in the 50+ years of his life.
+          </p>
+          <p>
+            Don't forget that gifts often come with costs that go beyond their purchase price. When you purchase a child the latest 
+            smartphone, you're also committing to a monthly phone bill. When you purchase the latest gaming system, you're likely 
+            not going to be satisfied with the games that come with it for long and want to purchase new titles to play. When you 
+            buy gifts it's important to remember that some come with additional costs down the road that can be much more expensive
+             than the initial gift itself.
+          </p>
+          <p>
+            I guess we could discuss the implications of the phrase "meant to be." That is if we wanted to drown ourselves in a sea of 
+            backwardly referential semantics and other mumbo-jumbo. Maybe such a discussion would result in the determination that "meant 
+            to be" is exactly as meaningless a phrase as it seems to be, and that none of us is actually meant to be doing anything at all. 
+            But that's my existential underpants underpinnings showing. It's the way the cookie crumbles. And now I want a cookie.
+          </p>
+          <p>
+            There are only three ways to make this work. The first is to let me take care of everything. The second is for you to take 
+            care of everything. The third is to split everything 50 / 50. I think the last option is the most preferable, but I'm certain 
+            it'll also mean the end of our marriage.          
+          </p>
+          <p>
+            He had three simple rules by which he lived. The first was to never eat blue food. There was nothing in nature that was 
+            edible that was blue. People often asked about blueberries, but everyone knows those are actually purple. He understood 
+            it was one of the stranger rules to live by, but it had served him well thus far in the 50+ years of his life.
+          </p>
+          <p>
+            Don't forget that gifts often come with costs that go beyond their purchase price. When you purchase a child the latest 
+            smartphone, you're also committing to a monthly phone bill. When you purchase the latest gaming system, you're likely 
+            not going to be satisfied with the games that come with it for long and want to purchase new titles to play. When you 
+            buy gifts it's important to remember that some come with additional costs down the road that can be much more expensive
+             than the initial gift itself.
+          </p>
+          <p>
+            I guess we could discuss the implications of the phrase "meant to be." That is if we wanted to drown ourselves in a sea of 
+            backwardly referential semantics and other mumbo-jumbo. Maybe such a discussion would result in the determination that "meant 
+            to be" is exactly as meaningless a phrase as it seems to be, and that none of us is actually meant to be doing anything at all. 
+            But that's my existential underpants underpinnings showing. It's the way the cookie crumbles. And now I want a cookie.
+          </p>
+          <p>
+            There are only three ways to make this work. The first is to let me take care of everything. The second is for you to take 
+            care of everything. The third is to split everything 50 / 50. I think the last option is the most preferable, but I'm certain 
+            it'll also mean the end of our marriage.          
+          </p>
+          <p>
+            He had three simple rules by which he lived. The first was to never eat blue food. There was nothing in nature that was 
+            edible that was blue. People often asked about blueberries, but everyone knows those are actually purple. He understood 
+            it was one of the stranger rules to live by, but it had served him well thus far in the 50+ years of his life.
+          </p>
+          <p>
+            Don't forget that gifts often come with costs that go beyond their purchase price. When you purchase a child the latest 
+            smartphone, you're also committing to a monthly phone bill. When you purchase the latest gaming system, you're likely 
+            not going to be satisfied with the games that come with it for long and want to purchase new titles to play. When you 
+            buy gifts it's important to remember that some come with additional costs down the road that can be much more expensive
+             than the initial gift itself.
+          </p>
+          <p>
+            I guess we could discuss the implications of the phrase "meant to be." That is if we wanted to drown ourselves in a sea of 
+            backwardly referential semantics and other mumbo-jumbo. Maybe such a discussion would result in the determination that "meant 
+            to be" is exactly as meaningless a phrase as it seems to be, and that none of us is actually meant to be doing anything at all. 
+            But that's my existential underpants underpinnings showing. It's the way the cookie crumbles. And now I want a cookie.
+          </p>
+          <p>
+            There are only three ways to make this work. The first is to let me take care of everything. The second is for you to take 
+            care of everything. The third is to split everything 50 / 50. I think the last option is the most preferable, but I'm certain 
+            it'll also mean the end of our marriage.          
+          </p>
+          <p>
+            He had three simple rules by which he lived. The first was to never eat blue food. There was nothing in nature that was 
+            edible that was blue. People often asked about blueberries, but everyone knows those are actually purple. He understood 
+            it was one of the stranger rules to live by, but it had served him well thus far in the 50+ years of his life.
+          </p>
+          <p>
+            Don't forget that gifts often come with costs that go beyond their purchase price. When you purchase a child the latest 
+            smartphone, you're also committing to a monthly phone bill. When you purchase the latest gaming system, you're likely 
+            not going to be satisfied with the games that come with it for long and want to purchase new titles to play. When you 
+            buy gifts it's important to remember that some come with additional costs down the road that can be much more expensive
+             than the initial gift itself.
+          </p>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
