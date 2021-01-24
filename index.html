@@ -12,10 +12,10 @@
       <link href="nav.css" rel="stylesheet" />
       <div class="nav">
         <ul class="nav-ul" id="nav-ul">
-          <li class="nav-li"><a href="">Home</a></li>
-          <li class="nav-li"><a href="">Options</a></li>
-          <li class="nav-li"><a href="">Contact</a></li>
-          <li class="nav-li"><a href="">About</a></li>
+          <li class="nav-li nav_option1"><a href="" id="option1">Home</a></li>
+          <li class="nav-li nav_option1"><a href="" id="option2">Options</a></li>
+          <li class="nav-li nav_option1"><a href="" id="option3">Contact</a></li>
+          <li class="nav-li nav_option1"><a href="" id="option4">About</a></li>
         </ul>
       </div>
       <div class="main" id="main">
@@ -26,10 +26,19 @@
             <button v-on:click="fontIncrease()" class="btnStyle1">+</button>
           </div>
           <div>
-            <button v-on:click="lightMode()" class="btnStyle2">Light Mode</button>
+            <button v-on:click="lightMode()" class="btnStyle2">Theme 1</button>
           </div>
           <div>
-            <button v-on:click="darkMode()" class="btnStyle2">Dark Mode</button>
+            <button v-on:click="darkMode()" class="btnStyle2">Theme 2</button>
+          </div>
+          <div>
+            <button v-on:click="Theme1()" class="btnStyle2">Theme 3</button>
+          </div>
+          <div>
+            <button v-on:click="Theme2()" class="btnStyle2">Theme 4</button>
+          </div>
+          <div>
+            <button v-on:click="Theme3()" class="btnStyle2">Theme 5</button>
           </div>
           
         </div>

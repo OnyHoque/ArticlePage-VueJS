@@ -20,6 +20,18 @@ new Vue({
         document.getElementById("main").style.backgroundColor = "white";
         document.getElementById("font-size-id").style.color = "#EEE";
         document.getElementById("main-article").style.color = "#1D1D1D";
+        document.getElementById("option1").style.color = "#EEE";
+        document.getElementById("option2").style.color = "#EEE";
+        document.getElementById("option3").style.color = "#EEE";
+        document.getElementById("option4").style.color = "#EEE";
+        document.getElementById("option1").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option1").classList.add('nav_option1');
+        document.getElementById("option2").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option2").classList.add('nav_option1');
+        document.getElementById("option3").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option3").classList.add('nav_option1');
+        document.getElementById("option4").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option4").classList.add('nav_option1');
     },
 
     darkMode: function(){
@@ -28,6 +40,82 @@ new Vue({
         document.getElementById("main").style.backgroundColor = "#111111";
         document.getElementById("font-size-id").style.color = "#111111";
         document.getElementById("main-article").style.color = "#EEE";
+        document.getElementById("option1").style.color = "#1D1D1D";
+        document.getElementById("option2").style.color = "#1D1D1D";
+        document.getElementById("option3").style.color = "#1D1D1D";
+        document.getElementById("option4").style.color = "#1D1D1D";
+
+        document.getElementById("option1").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option1").classList.add('nav_option2');
+        document.getElementById("option2").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option2").classList.add('nav_option2');
+        document.getElementById("option3").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option3").classList.add('nav_option2');
+        document.getElementById("option4").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option4").classList.add('nav_option2');
+    },
+
+    Theme1: function(){
+      document.getElementById("nav-ul").style.backgroundColor = "white";
+      document.getElementById("adjuster").style.backgroundColor = "grey";
+      document.getElementById("main").style.backgroundColor = "black";
+      document.getElementById("font-size-id").style.color = "white";
+      document.getElementById("main-article").style.color = "white";
+      document.getElementById("option1").style.color = "black";
+      document.getElementById("option2").style.color = "black";
+      document.getElementById("option3").style.color = "black";
+      document.getElementById("option4").style.color = "black";
+
+      document.getElementById("option1").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option1").classList.add('nav_option3');
+        document.getElementById("option2").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option2").classList.add('nav_option3');
+        document.getElementById("option3").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option3").classList.add('nav_option3');
+        document.getElementById("option4").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option4").classList.add('nav_option3');
+    },
+
+    Theme2: function(){
+      document.getElementById("nav-ul").style.backgroundColor = "white";
+      document.getElementById("adjuster").style.backgroundColor = "grey";
+      document.getElementById("main").style.backgroundColor = "red";
+      document.getElementById("font-size-id").style.color = "white";
+      document.getElementById("main-article").style.color = "white";
+      document.getElementById("option1").style.color = "red";
+      document.getElementById("option2").style.color = "red";
+      document.getElementById("option3").style.color = "red";
+      document.getElementById("option4").style.color = "red";
+
+      document.getElementById("option1").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option1").classList.add('nav_option4');
+        document.getElementById("option2").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option2").classList.add('nav_option4');
+        document.getElementById("option3").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option3").classList.add('nav_option4');
+        document.getElementById("option4").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option4").classList.add('nav_option4');
+    },
+
+    Theme3: function(){
+      document.getElementById("nav-ul").style.backgroundColor = "white";
+      document.getElementById("adjuster").style.backgroundColor = "rgb(0, 250, 50)";
+      document.getElementById("main").style.backgroundColor = "rgb(140, 255, 170)";
+      document.getElementById("font-size-id").style.color = "black";
+      document.getElementById("main-article").style.color = "black";
+      document.getElementById("option1").style.color = "black";
+      document.getElementById("option2").style.color = "black";
+      document.getElementById("option3").style.color = "black";
+      document.getElementById("option4").style.color = "black";
+
+      document.getElementById("option1").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option1").classList.add('nav_option5');
+        document.getElementById("option2").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option2").classList.add('nav_option5');
+        document.getElementById("option3").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option3").classList.add('nav_option5');
+        document.getElementById("option4").classList.remove('nav_option1', 'nav_option2', 'nav_option3',  'nav_option4', 'nav_option5');
+        document.getElementById("option4").classList.add('nav_option5');
     },
   },
 });
