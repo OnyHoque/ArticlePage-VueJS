@@ -4,10 +4,7 @@
 ![alt text](https://img.shields.io/static/v1?label=language&message=JavaScript&color=brightgreen)
 ![alt text](https://img.shields.io/static/v1?label=language&message=HTML&color=brightgreen)
 ![alt text](https://img.shields.io/static/v1?label=language&message=CSS&color=brightgreen)
-![alt text]()
-![alt text]()
-![alt text]()
-![alt text]()
+
 
 # Note
 This is a web-page template that has been created for being utilized as a article reader page for a website. The page can have multiple themes predefined for user preference. Also, the font size can be adjusted based on user's need.
