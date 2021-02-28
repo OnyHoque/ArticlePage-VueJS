@@ -1,7 +1,13 @@
-![alt text](https://img.shields.io/github/followers/onyhoque?style=social)
-![alt text](https://img.shields.io/github/commit-activity/m/onyhoque/ArticlePage-VueJS)
-![alt text](https://img.shields.io/github/checks-status/onyhoque/ArticlePage-VueJS/master)
-![alt text](https://img.shields.io/github/directory-file-count/onyhoque/ArticlePage-VueJS)
+![alt text](https://img.shields.io/github/stars/onyhoque/ArticlePage-VueJS?style=social)
+![alt text](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FHoqueOny)
+![alt text](https://img.shields.io/static/v1?label=framework&message=VueJS&color=blue)
+![alt text](https://img.shields.io/static/v1?label=language&message=JavaScript&color=brightgreen)
+![alt text](https://img.shields.io/static/v1?label=language&message=HTML&color=brightgreen)
+![alt text](https://img.shields.io/static/v1?label=language&message=CSS&color=brightgreen)
+![alt text]()
+![alt text]()
+![alt text]()
+![alt text]()
 
 # Note
 This is a web-page template that has been created for being utilized as a article reader page for a website. The page can have multiple themes predefined for user preference. Also, the font size can be adjusted based on user's need.
