@@ -7,5 +7,8 @@
 This is a web-page template that has been created for being utilized as a article reader page for a website. The page can have multiple themes predefined for user preference. Also, the font size can be adjusted based on user's need.
 
 # Screenshots
-![alt text](https://github.com/onyhoque/ArticlePage-VueJS/raw/master/images/article1.png)
-![alt text](https://github.com/onyhoque/ArticlePage-VueJS/raw/master/images/article1.png)
+![alt text](https://github.com/OnyHoque/ArticlePage-VueJS/blob/master/images/aritcle1.png?raw=true)
+![alt text](https://github.com/OnyHoque/ArticlePage-VueJS/blob/master/images/aritcle2.png?raw=true)
+![alt text](https://github.com/OnyHoque/ArticlePage-VueJS/blob/master/images/aritcle3.png?raw=true)
+![alt text](https://github.com/OnyHoque/ArticlePage-VueJS/blob/master/images/aritcle4.png?raw=true)
+![alt text](https://github.com/OnyHoque/ArticlePage-VueJS/blob/master/images/aritcle5.png?raw=true)
